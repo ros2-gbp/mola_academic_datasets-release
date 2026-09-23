@@ -1,0 +1,12 @@
+Source: ros-rolling-mola-academic-datasets
+Section: misc
+Priority: optional
+Maintainer: "Jose-Luis Blanco-Claraco" <jlblanco@ual.es>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-rolling-kitti-metrics-eval, ros-rolling-mola-input-euroc-dataset, ros-rolling-mola-input-kitti-dataset, ros-rolling-mola-input-kitti360-dataset, ros-rolling-mola-input-mulran-dataset, ros-rolling-mola-input-paris-luco-dataset, ros-rolling-ros-workspace
+Homepage: https://index.ros.org/p/mola_academic_datasets/#rolling
+Standards-Version: 3.9.2
+
+Package: ros-rolling-mola-academic-datasets
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-kitti-metrics-eval, ros-rolling-mola-input-euroc-dataset, ros-rolling-mola-input-kitti-dataset, ros-rolling-mola-input-kitti360-dataset, ros-rolling-mola-input-mulran-dataset, ros-rolling-mola-input-paris-luco-dataset, ros-rolling-ros-workspace
+Description: Metapackage with all packages supporting reading academic datasets.
