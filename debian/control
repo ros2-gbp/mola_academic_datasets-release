@@ -1,0 +1,12 @@
+Source: ros-humble-mola-academic-datasets
+Section: misc
+Priority: optional
+Maintainer: "Jose-Luis Blanco-Claraco" <jlblanco@ual.es>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-humble-kitti-metrics-eval, ros-humble-mola-input-euroc-dataset, ros-humble-mola-input-kitti-dataset, ros-humble-mola-input-kitti360-dataset, ros-humble-mola-input-mulran-dataset, ros-humble-mola-input-paris-luco-dataset, ros-humble-ros-workspace
+Homepage: https://index.ros.org/p/mola_academic_datasets/#humble
+Standards-Version: 3.9.2
+
+Package: ros-humble-mola-academic-datasets
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-kitti-metrics-eval, ros-humble-mola-input-euroc-dataset, ros-humble-mola-input-kitti-dataset, ros-humble-mola-input-kitti360-dataset, ros-humble-mola-input-mulran-dataset, ros-humble-mola-input-paris-luco-dataset, ros-humble-ros-workspace
+Description: Metapackage with all packages supporting reading academic datasets.
